@@ -2,7 +2,7 @@
 # Maintainer: Aaron Bassett <abassett@qnx.com>
 pkgname=libproxy
 pkgver=0.5.11
-pkgrel=${pkgrel:-0}
+pkgrel=0
 pkgdesc="Library handling all the details of proxy configuration"
 url="https://github.com/libproxy/libproxy"
 arch="all"
@@ -71,7 +71,6 @@ bin() {
 #}
 
 
-options="$options ${DISABLE_CHECK:+!check}"
 sha512sums="
 5211c1c8222989c3f4c2d65214543b65ab7a18749ff4afe331f6bdd559e96e065464ccc140efd6985a67f96e8cc99f27691266fa55695012215670098c1ed406  libproxy-0.5.11.tar.gz
 "
